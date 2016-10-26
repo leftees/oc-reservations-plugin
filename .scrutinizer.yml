@@ -11,6 +11,7 @@ build:
             - cd plugins/vojtasvoboda/reservations
             - git clone https://github.com/vojtasvoboda/oc-reservations-plugin.git .
             - composer install
+            - bower install
     tests:
         override:
             -
